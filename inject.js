@@ -1,4 +1,4 @@
-// content.js - Aifiesta-1337 Security Assessment Tool
+// inject.js - Aifiesta-1337 Security Assessment Tool
 'use strict';
 
 // Store original functions
