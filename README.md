@@ -61,7 +61,7 @@ async function login1337(token) {
         console.log("🚀 Logged in successfully");
         return data;
     }
-    throw new Error(data.error_description || 'Login failed');
+    throw new Error(data.message || 'Login failed');
 };
 
 login1337("gxmnlks75rgc")
